@@ -18,7 +18,7 @@ def make_room_payload(
         "type": room_type or random.choice(types),
         "accessible": accessible,
         "image": "https://www.mwtestconsultancy.co.uk/img/room1.jpg",
-        "description": f"Automated test room - {fake.sentence(nb_words=6)}",
+        "description": f"Spacious and comfortable room - {fake.sentence(nb_words=6)}",
         "features": ["WiFi", "TV", "Safe"],
         "roomPrice": price or random.randint(120, 450)
     }
