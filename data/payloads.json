@@ -1,0 +1,20 @@
+{
+  "invalid_auth": {
+    "username": "invalid_user",
+    "password": "wrong_password"
+  },
+  "invalid_room_missing_price": {
+    "roomName": "InvalidRoom-01",
+    "type": "Single",
+    "accessible": true,
+    "description": "Missing price field room",
+    "features": ["WiFi"]
+  },
+  "invalid_contact_form": {
+    "name": "",
+    "email": "not-an-email",
+    "phone": "123",
+    "subject": "",
+    "description": "Short"
+  }
+}
